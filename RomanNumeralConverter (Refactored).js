@@ -42,8 +42,8 @@ function convertToRoman(num) {
     }
   }
   return romanNumsSeparated
-						.reverse()
-						.join('');
+		.reverse()
+		.join('');
 }
 
 convertToRoman(36);
